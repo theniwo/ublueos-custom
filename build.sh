@@ -13,10 +13,9 @@ RELEASE="$(rpm -E %fedora)"
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/39/x86_64/repoview/index.html&protocol=https&redirect=1
 
 # this installs a package from fedora repos
-rpm-ostree install tmux screen byobu htop bpytop vim-enhanced
+rpm-ostree install tmux screen byobu htop bpytop vim-enhanced vlc
 
 # this would install a package from rpmfusion
 # rpm-ostree install vlc
 
 #### Example for enabling a System Unit File
-./displaylink-driver-6.0.0-24.run --confirm --quiet --accept --noprogress
