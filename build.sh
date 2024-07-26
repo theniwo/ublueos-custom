@@ -19,5 +19,4 @@ rpm-ostree install tmux screen byobu htop bpytop vim-enhanced vlc libgda libgda-
 # rpm-ostree install vlc
 
 #### Example for enabling a System Unit File
-rpm-ostree initramfs-etc --track=/etc/vconsole.conf
 
