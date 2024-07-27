@@ -33,10 +33,10 @@ ARG SOURCE_IMAGE="bluefin"
 # - stable-zfs
 # - stable-nvidia-zfs
 # - (and the above with testing rather than stable)
-ARG SOURCE_SUFFIX="-gts"
+ARG SOURCE_SUFFIX=""
 
 ## SOURCE_TAG arg must be a version built for the specific image: eg, 39, 40, gts, latest
-ARG SOURCE_TAG="latest"
+ARG SOURCE_TAG="39"
 
 
 ### 2. SOURCE IMAGE
